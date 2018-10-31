@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Twitter Profile Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
+  </head>
+  <body>
+    <nav>
+      <div class="left_nav">
+        <ul>
+          <li><a href="#"><i class="fa fa-home"></i> Home</a> </li>
+          <li><a href="#"><i class="fa fa-bell"></i> Notifications</a></li>
+          <li><a href="#"><i class="fa fa-envelope"></i> Messages</a></li>
+        </ul>
+      </div>
+      <div class="center_icon">
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div class="right_nav">
+        <input type="text" name="search" value="" placeholder="Search Twitter">
+        <img src="img/avatar.jpg" alt="User Avatar" id="thumbnail">
+        <button type="button" name="tweet" id="btn_tweet">Tweet</button>
+      </div>
+    </nav> <!--End of Nav -->
+
+    <div id="big_divider">
+
+    </div>
+
+    <div id="pic_container">
+      <img src="img/avatar.jpg" alt="Profile Picture" id="profile_pic">
+    </div>
+
+    <div id="lower_header">
+      <div class="col_1">
+
+      </div>
+
+      <div class="col_2">
+        <span>Tweets
+          <h3>58</h3>
+        </span>
+        <span>Following
+          <h3>47</h3>
+        </span>
+        <span>Followers
+          <h3>19</h3>
+        </span>
+        <span>Likes
+          <h3>91</h3>
+        </span>
+        <span>Lists
+          <h3>0</h3>
+        </span>
+        <span>Moments
+          <h3>0</h3>
+        </span>
+      </div> <!--end of col 2 -->
+
+      <div class="col_3">
+          <button type="button" name="button" id="btn_edit_profile">Edit Profile</button>
+      </div>
+    </div> <!--End of lower header -->
+
+    <!-- Beginning of profile body   -->
+    <div id="profile_body">
+      <div class="col_1">
+          <h2>Solathecoder</h2>
+          <p id="twitter_handle">@solathecoder</p>
+          <p id="about">Web Developer. Graphics Designer. Motion Artist. Student</p>
+          <p><i class="fa fa-map-marker"></i> Lagos, Nigeria</p>
+          <p><i class="fa fa-calender"></i> Joined August 2018</p>
+          <p><i class="fa fa-heart"></i> Born October 24, 1996</p>
+          <p><i class="fa fa-picture-o"></i> 10 pictures and videos</p>
+          <div id="three_col_img">
+            <img src="img/1.jpg" class="tweet_img_thumbnail">
+            <img src="img/2.jpg" class="tweet_img_thumbnail">
+             <img src="img/3.jpg" class="tweet_img_thumbnail">
+             <img src="img/gig.jpg" class="tweet_img_thumbnail">
+          </div>
+
+      </div> <!--end of col_1 -->
+
+      <div class="col_2">
+        <div class="tweet_header">
+          <h2 class="active">Tweet</h2>
+          <h2>Tweets & replies</h2>
+          <h2>Media</h2>
+        </div> <!--End of tweet header -->
+
+        <div class="tb_container">
+          <div class="tb_img_con">
+            <img src="img/avatar.jpg" class="tb_thumbnail">
+          </div>
+          <div class="tweet_body">
+              <span class="drop_down"><i class="fa fa-caret-down"></i> </span>
+            <div class="tb_header">
+              <span class="display_name">Olusola</span>
+              <span class="handle">@solathecoder</span>
+              <span class="date">- Oct 19</span>
+            </div> <!--end of tweet body header -->
+
+            <div class="tb_content">
+                <div class="tb_tweet">
+                  <p>Contact me for your web design jobs..bla bla bla. You will get the best
+                  design in the world! <span class="hashtags">#webDesign #programming #website #creative #dm #solathecoder</span></p>
+                </div>
+                <img src="img/gig.jpg" class="tb_content_img">
+                <div class="tb_actions">
+                  <span>  <i class="fa fa-comment"></i> </span>
+                  <span>  <i class="fa fa-retweet"></i> </span>
+                  <span>  <i class="fa fa-heart"></i> </span>
+                  <span>  <i class="fa fa-th"></i> </span>
+                </div>
+            </div>
+          </div><!--end of tweet body -->
+        </div> <!--end of tweet container -->
+
+        <!-- SECOND TWEET BEGINS -->
+        <div class="tb_container">
+          <div class="tb_img_con">
+            <img src="img/avatar.jpg" class="tb_thumbnail">
+          </div>
+          <div class="tweet_body">
+            <span class="drop_down"><i class="fa fa-caret-down"></i> </span>
+            <div class="tb_header">
+              <span class="display_name">Olusola</span>
+              <span class="handle">@solathecoder</span>
+              <span class="date">- Oct 19</span>
+
+            </div> <!--end of tweet body header -->
+
+            <div class="tb_content">
+                <div class="tb_tweet">
+                  <p>"Education is not the learnig of facts, but the training of the mind to think" - Albert Einstein <span class="hashtags">#CodeLagos #programming #gameChangers </span></p>
+                </div>
+                <div class="tb_actions">
+                  <span>  <i class="fa fa-comment"></i> </span>
+                  <span>  <i class="fa fa-retweet"></i> </span>
+                  <span>  <i class="fa fa-heart"></i> </span>
+                  <span>  <i class="fa fa-th"></i> </span>
+                </div>
+            </div>
+          </div><!--end of tweet body -->
+        </div> <!--end of tweet container -->
+        <!-- SECOND TWEET ENDS -->
+
+        <!-- THIRD TWEET BEGINS -->
+        <div class="tb_container">
+          <div class="tb_img_con">
+            <img src="img/avatar.jpg" class="tb_thumbnail">
+          </div>
+          <div class="tweet_body">
+              <span class="drop_down"><i class="fa fa-caret-down"></i> </span>
+            <div class="tb_header">
+              <span class="display_name">Olusola</span>
+              <span class="handle">@solathecoder</span>
+              <span class="date">- Oct 19</span>
+            </div> <!--end of tweet body header -->
+
+            <div class="tb_content">
+                <div class="tb_tweet">
+                  <p>CodeLagos was fun!!!!!<span class="hashtags"> #CodeLagos #programming #gameChangers </span></p>
+                </div>
+                <img src="img/me.jpg" class="tb_content_img">
+                <div class="tb_actions">
+                  <span>  <i class="fa fa-comment"></i> </span>
+                  <span>  <i class="fa fa-retweet"></i> </span>
+                  <span>  <i class="fa fa-heart"></i> </span>
+                  <span>  <i class="fa fa-th"></i> </span>
+                </div>
+            </div>
+          </div><!--end of tweet body -->
+        </div> <!--end of tweet container -->
+        <!-- THIRD TWEET ENDS -->
+
+      </div> <!--end of col 2 -->
+
+      <div class="col_3">
+        <div id="sidebar">
+
+        </div>
+
+      </div> <!--end of col 3 -->
+    </div>
+
+    <!-- End of tweet body -->
+  </body>
+</html>
